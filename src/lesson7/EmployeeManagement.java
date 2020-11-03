@@ -30,11 +30,10 @@ public class EmployeeManagement {
         }
     }
 
-    public int printAllEmployee(){
+    public void printAllEmployee(){
         for (Employee employee :employees){
             System.out.println(employee.toString());
         }
-        return printAllEmployee();
     }
     /**
      *
